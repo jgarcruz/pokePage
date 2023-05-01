@@ -9,8 +9,12 @@ function Team(){
 
     return (
         <>
-            <h1>My Pokemon Team</h1>
+        <div class="homecontainer">
+            <h1 class = "team-text">My Pokemon Team</h1>
+        </div>
+        <div class="homecontainer">
             <u1 class = "team">{pokemon}</u1>
+        </div>
         </>
     )
 }

@@ -22,16 +22,23 @@ function Home(){
     }
 
     return(
-        <div>
-            <p id = "pokeball">Hover over me!</p>
-            <img onMouseOver={()=>onHover(true)} onMouseLeave={()=>onHover(false)} id = "pokeballimage" src = {hover ? masterball:pokeball} alt = 'Pokeball picture'/>
-            <p id = "author">Welcome to this website created by: {name} {lname}</p>
+        <>
+        <div class = "homecontainer">
+            <p class="team-text" id="covertext">Hover over me!</p>
+            <img onMouseOver={()=>onHover(true)} onMouseLeave={()=>onHover(false)} class = "masterball" id = "pokeball-image" src = {masterball} alt = 'Pokeball picture'/>
+            <p class="animated-text">Welcome to this website created by: {name} {lname}</p>
+        </div>
+
+        <div class = "homecontainer">
             <label>
                 What's your favorite Pokemon?
                 <input type="text" value={text} onChange={handleTextChange}></input>
             </label>
-            <p>Your favorite Pokemon is: {text}</p>
         </div>
+        <div class = "homecontainer">
+        <p class="diff">Your favorite Pokemon is: {text}</p>
+        </div>
+        </>
     )
 }
 

@@ -12,15 +12,19 @@ function SelectControl() {
   };
 
   return (
-    <div>
+    <>
+    <div class="homecontainer">
       <label htmlFor="select-control">What is your favorite Pokemon Type?:</label>
       <select id="select-control" value={selectedOption} onChange={handleChange}>
         <option value="Fire">Fire</option>
         <option value="Grass">Grass</option>
         <option value="Water">Water</option>
       </select>
-      <p>Selected option: {selectedOption}</p>
     </div>
+    <div class="homecontainer">
+      <p class="diff">Selected option: {selectedOption}</p>
+    </div>
+    </>
   );
 }
 

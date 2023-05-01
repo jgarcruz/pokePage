@@ -13,10 +13,10 @@ function Surprise() {
   };
 
   return (
-    <div>
+    <div class = "homecontainer">
       <button onClick={handleClick}>Click me for a surprise!</button>
       {showImage && (
-        <img onMouseOver={()=>onHover(true)} onMouseLeave={()=>onHover(false)} src={hover ? ShinyEspurr : Espurr} alt="espurr" />
+        <img id = "espurr" onMouseOver={()=>onHover(true)} onMouseLeave={()=>onHover(false)} src={hover ? ShinyEspurr : Espurr} alt="espurr" />
       )}
     </div>
   );

@@ -36,3 +36,76 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  position: relative;
+  background-color: #282c34 !important;
+  color: #fff !important;
+}
+
+/*Cascading Selectors*/
+/*Regular prompt text is in pink
+* Response text is aquamarine
+*/
+p{
+  color: pink;
+}
+
+p.diff{
+  color: aquamarine;
+}
+
+/*Psuedo classes*/
+li:nth-child(odd){
+  color:lightgreen;
+}
+
+li:nth-child(even){
+  color: yellow;
+}
+
+/*Center elements within container*/
+/*All page items will be centered*/
+.homecontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Animation*/
+.animated-text {
+  animation-name: slide-in;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.team-text {
+  font-size: 24px;
+  transition: font-size 0.5s ease-in-out;
+  color: aqua;
+}
+
+.team-text:hover {
+  font-size: 36px;
+}
+
+.masterball{
+  transition: transform 0.5s ease-in-out;
+  background-color: purple;
+}
+
+.masterball:hover {
+  transform: scale(1.1);
+}

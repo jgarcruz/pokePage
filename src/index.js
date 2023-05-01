@@ -7,6 +7,7 @@ import Surprise from './Surprise'
 import Team from './Team'
 import Feedback from './Feedback'
 import Select from './Select'
+import Tech from './Tech'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.render(
     <Team />
     <Feedback />
     <Select />
+    <Tech />
   </React.StrictMode>,
   document.getElementById('root')
 );

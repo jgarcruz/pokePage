@@ -24,7 +24,9 @@ function Home(){
     return(
         <>
         <div class = "homecontainer">
-            <p class="team-text" id="covertext">Hover over me!</p>
+            <p class="team-text" id="covertext">LETS GO!</p>
+        </div>
+        <div class = "homecontainer">
             <img onMouseOver={()=>onHover(true)} onMouseLeave={()=>onHover(false)} class = "masterball" id = "pokeball-image" src = {masterball} alt = 'Pokeball picture'/>
             <p class="animated-text">Welcome to this website created by: {name} {lname}</p>
         </div>

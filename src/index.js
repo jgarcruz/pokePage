@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Home from './Home';
+import Surprise from './Surprise'
+import Team from './Team'
+import Feedback from './Feedback'
+import Select from './Select'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Home />
+    <Surprise />
+    <Team />
+    <Feedback />
+    <Select />
   </React.StrictMode>,
   document.getElementById('root')
 );

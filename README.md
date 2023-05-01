@@ -7,25 +7,45 @@
 
 *Please fill in this information before submission*
 
-* **Student Name:** 
-* **Student G-Number:** 
-* **Render Deployment URL:**
+* **Student Name: Joan Garcia-Cruz** 
+* **Student G-Number: G01189815** 
+* **Render Deployment URL: https://joan-garciacruz-swe432-hw4.onrender.com**
 
 ### Documentation of your Web App and React Components
 
 *Here please describe your (at least) 5 different React components as well as the overall purpose of your web application. We provide an example below of what we expect this documentation to look like.*
 
-**General App Description:** This web application provides information about cities loaded from a centralized database at www.citiesinfo.org. This app can help people find reference information about various city attributes such as population, capitals, and other demographic information.
+**General App Description:** This is a Pokemon themed website that uses the React and CSS features required of this assignment.
 
-* **React Component 1:** Retrieve a city from our Washington DC Database
-  * *Functionality:* Displays a list of cities and allows the user to sort the cities alphabetically
-  * *Interactivity:* The user can click on an arrow at the top of the list to change the sorting.
+* **React Component 1:** Home Component
+  * *Functionality:* A homepage that displays a masterball and welcomes the user to the website.
+  * *Interactivity:* The user can hover over the masterball image in the background and will expand in size upon hover. The user can also enter their favorite Pokemon and have the name of their favorite Pokemon show up on the page.
+  
+* **React Component 2:** Surprise Component
+  * *Functionality:* A button that the user can click for a surpsise!
+  * *Interactivity:* The user can press the button for a surprise Pokemon to show on the page. The user can also hover over the Pokemon to see its shiny form.
+  
+* **React Component 3:** Team Component
+  * *Functionality:* Displays my Pokemon team in a list.
+  * *Interactivity:* The header can be hovered by the user and the text will expand in size.
+  
+* **React Component 4:** Feedback Component
+  * *Functionality:* The user submits feedback within the form and submits it.
+  * *Interactivity:* The user can enter their email and feedback they have on the website inside the textbox and have both show up on the page.
+  
+* **React Component 5:** Select Component
+  * *Functionality:* A list of 3 Pokemon types (Fire, Grass, Water)
+  * *Interactivity:* The user can select their favorite Pokemon type and have their favorite type show up on the page.
+  
+* **React Component 6:** Tech Component
+  * *Functionality:* A grid that expresses the technologies used within the website
+  * *Interactivity:* The user can hover over the header of this component and the text will expand in size.
 
 ## Project Overview
 
 This repo contains a barebones React app with a single component. You will use this as the "base" version of your Interactive Front-end application for HW Assignment #4. You will simply create a copy of this repo through GitHub classroom and then work in that repo. 
 
-## Homework Assignment 3 Detailed Instructions
+## Homework Assignment 4 Detailed Instructions
 
 You can find the deatiled instructions for HW Assignment #4 on the [course webpage](https://kpmoran.cs.gmu.edu/swe-432-s23/hw4-tutorial/). Please read these carefully before getting started.
 
